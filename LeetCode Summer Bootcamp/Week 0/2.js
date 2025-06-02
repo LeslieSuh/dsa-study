@@ -1,3 +1,5 @@
+// Reverse String
+
 "use strict";
 
 process.stdin.resume();
@@ -19,23 +21,13 @@ function readLine() {
 }
 
 // Function to be implemented
-function removeDuplicates(nums) {
+function reverseString(s) {
   // Write your code here
-  let i = 1;
-  for (let j = 1; j < nums.length; j++) {
-    if (nums[j] !== nums[j - 1]) {
-      nums[i] = nums[j];
-      i++;
-    }
-  }
-  return i;
+  return s.split("").reverse().join("");
 }
 
 function main() {
-  const n = parseInt(readLine());
-  const nums = readLine().split(" ").map(Number);
-
-  const k = removeDuplicates(nums);
-  console.log(k);
-  console.log(nums.slice(0, k).join(" "));
+  const s = readLine();
+  const result = reverseString(s);
+  console.log(result);
 }

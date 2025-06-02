@@ -1,3 +1,5 @@
+// Remove Duplicates from Sorted Array
+
 "use strict";
 
 process.stdin.resume();
@@ -19,13 +21,23 @@ function readLine() {
 }
 
 // Function to be implemented
-function reverseString(s) {
+function removeDuplicates(nums) {
   // Write your code here
-  return s.split("").reverse().join("");
+  let i = 1;
+  for (let j = 1; j < nums.length; j++) {
+    if (nums[j] !== nums[j - 1]) {
+      nums[i] = nums[j];
+      i++;
+    }
+  }
+  return i;
 }
 
 function main() {
-  const s = readLine();
-  const result = reverseString(s);
-  console.log(result);
+  const n = parseInt(readLine());
+  const nums = readLine().split(" ").map(Number);
+
+  const k = removeDuplicates(nums);
+  console.log(k);
+  console.log(nums.slice(0, k).join(" "));
 }
