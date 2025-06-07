@@ -12,3 +12,11 @@ This is where I keep track of my homework and progress.
 4. Two Sum (UnSorted Array)
 
 ## Week 1
+
+1. Linked List Cycle
+2. 3Sum
+3. Middle of the Linked List
+4. Reverse Linked List
+5. Move zero
+
+## Week 2
