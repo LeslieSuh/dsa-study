@@ -15,7 +15,6 @@ function findMiddle(head) {
     slow = slow.next;
     fast = fast.next.next;
   }
-  console.log(slow);
   return slow;
 }
 
