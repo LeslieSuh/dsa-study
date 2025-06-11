@@ -1,5 +1,4 @@
 // Middle of the Linked List 9
-
 class ListNode {
   constructor(val) {
     this.val = val;
