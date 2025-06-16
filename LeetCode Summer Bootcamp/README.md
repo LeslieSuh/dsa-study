@@ -20,3 +20,9 @@ This is where I keep track of my homework and progress.
 5. Move zero
 
 ## Week 2
+
+1. Search Insert Position
+2. Find First and Last Position of Element in Sorted Array
+3. Find Peak Element
+4. Search in Rotated Sorted Array
+5. Cutting Ribbons
