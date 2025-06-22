@@ -26,3 +26,10 @@ This is where I keep track of my homework and progress.
 3. Find Peak Element
 4. Search in Rotated Sorted Array
 5. Cutting Ribbons
+
+## Week 3
+
+1. Valid Sudoku
+2. Subarray Sum Equals K
+3. Group Anagrams
+4. Range Sum Query - Immutable
